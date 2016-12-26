@@ -12,6 +12,7 @@
    {"name":"pageTitle", "required":"true"},
    {"name":"tableName", "required":"true"},
    {"name":"columns", "required":"true"},
-   {"name":"serviceEndpoint", "required":"true"}
+   {"name":"serviceEndpoint", "required":"true"},
+   {"name":"dependentColumn", "required":"true"}
    ]
 }
