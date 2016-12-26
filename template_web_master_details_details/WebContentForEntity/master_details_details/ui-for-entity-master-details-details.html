@@ -197,7 +197,7 @@
 				
 				
 			// master-detail support
-			$scope.foreignKey = '${dependentColumn}'; // foreign key e.g. item_header_id
+			$scope.foreignKey = '${dependentColumn.toLowerCase()}'; // foreign key e.g. item_header_id
 			var urlParameter = getURLParameter($scope.foreignKey);
 			if (urlParameter) {
 				if(!$scope.foreignKeyParameter) {
