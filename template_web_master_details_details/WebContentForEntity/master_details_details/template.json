@@ -4,7 +4,9 @@
     "image":"ui-for-entity-master-details-details.png",
     "sources":[{
         "name":"ui-for-entity-master-details-details.html",
-        "action":"generate"
+        "rootFolder":"WebContent",
+        "action":"generate",
+        "rename":"%s"
     }],
     "parameters":[{
         "name":"templateType",
